@@ -1,0 +1,51 @@
+
+        <div class="container">
+           
+            <div class="fields">
+
+                <div class="row text-center">
+                    <h1>Add Measurements</h1>
+                    <p class="lead">Enter Your Measurements</p>
+                </div>
+
+                <form class="form-horizontal">
+                    <div class="form-group">
+                    <div class="takePhoto">
+                         <h3>Take Photo</h3>
+                        <input type="file" accept="image/*" id="capture" capture="camera">
+                        <div class="viewPhoto">
+                            <img src="">
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Date</label>
+                        <input type="date" ng-model="measurement.date" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Chest</label>
+                        <input id="chest" type="text" ng-model="measurement.chest" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Thighs</label>
+                        <input id="thighs" type="text" ng-model="measurement.thighs" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Arms</label>
+                        <input id="arms" type="text" ng-model="measurement.arms" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Forearms</label>
+                        <input id="forearms" type="text" ng-model="measurement.forearms" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Waist</label>
+                        <input type="waist" type="text" ng-model="measurement.waist" class="form-control">
+                    </div>
+                    <div class="text-center"><button type="submit" ng-click="create(measurement)" class="btn btn-default">SUBMIT PROGRESS</button>
+</div>
+                </form>
+            </div>
+  
+        </div>

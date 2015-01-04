@@ -1,0 +1,1 @@
+statsApp.constant("dataUrl","http://localhost:5500/measurements"),statsApp.controller("ViewStatsController",function(t,s,e){t.data={},s.get(e).success(function(s){t.data.measurements=s}).error(function(s){t.data.error=s}),t.create=function(a){s.post(e,a).success(function(s){t.measurements.push(s)})}});

@@ -1,0 +1,61 @@
+{
+	"type": "Collection",
+	"properties": {
+		"date": {
+			"name": "date",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "date",
+			"order": 0
+		},
+		"chest": {
+			"name": "chest",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "chest",
+			"order": 1
+		},
+		"thighs": {
+			"name": "thighs",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "thighs",
+			"order": 2
+		},
+		"arms": {
+			"name": "arms",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "arms",
+			"order": 3
+		},
+		"forearms": {
+			"name": "forearms",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "forearms",
+			"order": 4
+		},
+		"waist": {
+			"name": "waist",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "waist",
+			"order": 5
+		},
+		"photo": {
+			"name": "photo",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "photo",
+			"order": 6
+		}
+	}
+}

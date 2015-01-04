@@ -1,0 +1,22 @@
+<div class="container">
+
+          <div class="row">
+                <div class="displayCreated">
+                
+                </div>
+            </div>
+            <div class="row">
+                <div class="displayResults" ng-repeat="item in data.measurements">
+                    <h3>Date: {{item.date | date: "MM-dd-yyyy"}}</h3>
+                    <ul class="list-inline">
+                        <li>Chests:   {{item.chest}}</li>
+                        <li>Thighs:   {{item.thighs}}</li>
+                        <li>Arms:     {{item.arms}}</li>
+                        <li>Forearms: {{item.forearms}}</li>
+                        <li>Waist:    {{item.waist}}</li>
+                        <li>Photo:    {{item.photo}}</li>
+                    </ul>
+                </div>
+            </div>
+    
+</div>
