@@ -16,6 +16,12 @@ statsApp.controller("ViewStatsController", function($scope, $http, dataUrl){
     };
 });
 
+statsApp.controller('LoginCtrl', ['$scope', function ($scope) {
+    
+}])
+
+// Create a controller for the login
+
 
 
     //Create New Measurements

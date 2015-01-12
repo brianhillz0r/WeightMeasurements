@@ -1,5 +1,5 @@
 
-        <div class="container">
+        <div class="container-fluid">
            
             <div class="fields">
 
@@ -9,7 +9,7 @@
                 </div>
 
                 <form class="form-horizontal">
-                    <div class="form-group">
+                   <!-- <div class="form-group">
                     <div class="takePhoto">
                          <h3>Take Photo</h3>
                         <input type="file" accept="image/*" id="capture" capture="camera">
@@ -17,32 +17,40 @@
                             <img src="">
                         </div>
                     </div>
-                    </div>
-                    
-                    <div class="form-group">
+                    </div>-->
+                    <div class="row">
+                    <div class="col-xs-12">
                         <label>Date</label>
                         <input type="date" ng-model="measurement.date" class="form-control">
                     </div>
-                    <div class="form-group">
-                        <label>Chest</label>
-                        <input id="chest" type="text" ng-model="measurement.chest" class="form-control">
                     </div>
-                    <div class="form-group">
-                        <label>Thighs</label>
-                        <input id="thighs" type="text" ng-model="measurement.thighs" class="form-control">
+                    <div class="row">
+
+                        <div class="col-xs-4">
+                        <input id="chest" type="text" ng-model="measurement.chest" class="circle" placeholder="Chest">
                     </div>
-                    <div class="form-group">
-                        <label>Arms</label>
-                        <input id="arms" type="text" ng-model="measurement.arms" class="form-control">
+                    <div class="col-xs-4">
+                        <input id="thighs" type="text" ng-model="measurement.thighs" class="circle" placeholder="Thighs">
                     </div>
-                    <div class="form-group">
-                        <label>Forearms</label>
-                        <input id="forearms" type="text" ng-model="measurement.forearms" class="form-control">
+                        <div class="col-xs-4">
+                        <input id="arms" type="text" ng-model="measurement.arms" class="circle" placeholder="Arms">
                     </div>
-                    <div class="form-group">
-                        <label>Waist</label>
-                        <input type="waist" type="text" ng-model="measurement.waist" class="form-control">
                     </div>
+                    <div class="row">
+                                
+                    <div class="col-xs-4">
+                        <input id="arms" type="text" ng-model="measurement.arms" class="circle" placeholder="Stomach">
+                    </div>
+                    <div class="col-xs-4">
+                        <input id="forearms" type="text" ng-model="measurement.forearms" class="circle" placeholder="Forearms">
+                    </div>
+                    <div class="col-xs-4">
+                        <input type="waist" type="text" ng-model="measurement.waist" class="circle" placeholder="Waist">
+                    </div>
+                    
+                    </div>
+
+
                     <div class="text-center"><button type="submit" ng-click="create(measurement)" class="btn btn-default">SUBMIT PROGRESS</button>
 </div>
                 </form>

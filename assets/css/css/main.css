@@ -6259,13 +6259,16 @@ button.close {
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
-  background-color: #4cc2f3;
-  width: 140px;
-  height: 140px;
-  padding: 48px;
+  background-color: transparent;
+  border-color: #575b5c;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  color: #4cc2f3;
 }
 .circle:hover {
-  background-color: #dcdcdc;
+  background-color: #4cc2f3;
+  color: #ffffff;
   -webkit-transition-property: color, background;
   -webkit-transition-duration: .20s, .20s;
   -webkit-transition-timing-function: linear, ease-in;

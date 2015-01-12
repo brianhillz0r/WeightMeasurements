@@ -2014,12 +2014,56 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/controllers\/statsController.js": {
+	"\/controllers\/min\/statsController-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/controllers\/min\/statsController-min.js",
+		"outputAbbreviatedPath": "\/controllers\/min\/min\/statsController-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/controllers\/statsController-test.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/controllers\/statsController.js",
-		"outputAbbreviatedPath": "\/controllers\/min\/statsController-min.js",
+		"inputAbbreviatedPath": "\/controllers\/statsController-test.js",
+		"outputAbbreviatedPath": "\/controllers\/min\/statsController-test-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/controllers\/statscontroller.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/controllers\/statscontroller.js",
+		"outputAbbreviatedPath": "\/controllers\/min\/statscontroller-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/controllers\/statsDirective.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/controllers\/statsDirective.js",
+		"outputAbbreviatedPath": "\/controllers\/min\/statsDirective-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/controllers\/testing.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/controllers\/testing.js",
+		"outputAbbreviatedPath": "\/controllers\/min\/testing-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

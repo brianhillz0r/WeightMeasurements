@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"data",
+				"dataUrl"
+			],
+			[
+				"Sta",
+				"StatsFactory"
+			],
+			[
+				"if",
+				"if	JS - if"
+			],
+			[
 				"mess",
 				"messageText"
 			],
@@ -143,15 +155,23 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 287.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
+				"Snippet: bootstrap",
+				"Snippet: Bootstrap large button"
+			],
+			[
 				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 530.0
+		"width": 602.0
 	},
 	"console":
 	{
@@ -168,6 +188,22 @@
 	},
 	"file_history":
 	[
+		"/Users/asimcraft/VectorNPixel/Apps/WeightMeasurements/controllers/statsController.js",
+		"/Users/asimcraft/VectorNPixel/Apps/WeightMeasurements/components/form.js",
+		"/Users/asimcraft/VectorNPixel/Apps/WeightMeasurements/views/enterdata.html",
+		"/Users/asimcraft/VectorNPixel/Websites/SGDownload/wp-config.php",
+		"/Users/asimcraft/VectorNPixel/Apps/WeightMeasurements/app-module.js",
+		"/Users/asimcraft/VectorNPixel/Apps/WeightMeasurements/index.html",
+		"/Users/asimcraft/VectorNPixel/Apps/WeightMeasurements/views/results.html",
+		"/Users/asimcraft/VectorNPixel/Apps/WeightMeasurements/assets/css/less/main.less",
+		"/Users/asimcraft/VectorNPixel/Apps/WeightMeasurements/assets/css/less/styles.less",
+		"/Users/asimcraft/VectorNPixel/Apps/WeightMeasurements/assets/css/css/main.css",
+		"/Users/asimcraft/VectorNPixel/Apps/WeightMeasurements/assets/css/less/layouts/pages/viewstats.less",
+		"/Users/asimcraft/VectorNPixel/Apps/WeightMeasurements/assets/css/less/layouts/pages/_addstats.less",
+		"/Users/asimcraft/VectorNPixel/Apps/WeightMeasurements/assets/css/less/layouts/_header.less",
+		"/Users/asimcraft/VectorNPixel/Websites/SPA-Template/assets/css/less/global.less",
+		"/Users/asimcraft/VectorNPixel/Apps/WeightMeasurements/assets/css/less/page/enterdata.less",
+		"/Users/asimcraft/VectorNPixel/Apps/WeightMeasurements/assets/css/main.less",
 		"/Users/asimcraft/server.js",
 		"/Users/asimcraft/Vector N Pixel/Modules/Javascript/sum.html",
 		"/Users/asimcraft/Vector N Pixel/Modules/Javascript/invoice.js",
@@ -279,23 +315,7 @@
 		"/Projects/wordpress/wp-content/themes/vectornpixel/fonts/font.css",
 		"/Projects/wordpress/wp-content/themes/vectornpixel/styles.css",
 		"/Users/asimcraft/Documents/badeensample.jpg",
-		"/Projects/jobboard/css/styles.css",
-		"/Projects/jobboard/css/framework.css",
-		"/Users/asimcraft/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Users/asimcraft/Box Sync/Websites/Job Board/index.html",
-		"/Users/asimcraft/Box Sync/Websites/HTML Template/index.html",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/vectornpixel/page-front.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/vectornpixel/functions.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/vectornpixel/assets/less/_global.less",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/vectornpixel/assets/less/_bootstrap.less",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/vectornpixel/templates/header.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-config.php",
-		"/Users/asimcraft/Box Sync/Resources/Frameworks/stacklst framework/styles.css",
-		"/Applications/MAMP/htdocs/creativconnect/css/styles.css",
-		"/Applications/MAMP/htdocs/creativconnect/settings-view.html",
-		"/Users/asimcraft/Box Sync/Websites/Devstack/index.html",
-		"/Applications/MAMP/htdocs/creativconnect/Gruntfile.js",
-		"/Applications/MAMP/htdocs/creativconnect/package.json"
+		"/Projects/jobboard/css/styles.css"
 	],
 	"find":
 	{
@@ -313,6 +333,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\">\n",
 			"                <",
 			"styles",
 			"css",
@@ -399,16 +420,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 228.0,
+	"side_bar_width": 292.0,
 	"status_bar_visible": true
 }
